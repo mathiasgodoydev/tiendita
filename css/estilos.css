@@ -1,0 +1,253 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 62.5%;
+    background-color: #FFECEB;
+    color: #C8B6A6;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1{
+    font-family: 'The season';
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.6rem;
+    background-color: #f1B6B1;
+    padding: 0.2rem;
+}
+
+.logo {
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+.logo img{
+    height: 150px;
+    padding-left: 2rem;
+}
+
+.nav-list{
+    list-style: none;
+    display: flex;
+    padding-right: 1rem;
+    gap: 1rem;
+}
+
+.nav-list a{
+    text-decoration: none;
+    color: #FDEBED;
+}
+
+.nav-list :hover{
+    color: #F5C6EC;
+    border-bottom: 3px solid #FF78F0;
+}
+
+.abrir-menu,
+.cerrar-menu{
+    display: none;
+}
+
+.inicio-contenedor {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+.inicio-titulo {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #C8B6A6;
+    gap: 1rem;
+}
+
+.inicio-titulo p {
+    font-size: 1.6rem;
+    color: #fff;
+}
+
+.inicio-texto {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #FF78F0;
+}
+
+.foto-inicio {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+.foto-inicio img {
+    max-width: 100%;
+    max-height: 80vh;
+    object-fit: contain;
+  }
+
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+  
+.galeria img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    margin: 10px;
+}
+
+.productos-container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 2rem;
+    position: relative;
+  }
+  
+  .productos-titulo {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+  
+  .productos-lista {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    top: 5rem;
+    left: 0;
+    right: 0;
+  }
+  
+  .producto {
+    width: 45%;
+    margin-bottom: 2rem;
+  }
+  
+  .producto img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 1rem;
+  }
+  
+  .producto-nombre {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .producto-precio {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #888;
+  }
+
+footer{
+    background-color: #FFAACF;
+    color: #FFECEB;
+    padding: 2rem;
+}
+
+.footer-titulo{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.footer-lista{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.footer-lista li{
+    margin: 0 1rem;
+}
+
+.footer-lista li a{
+    font-size: 1rem;
+    color: #FFECEB;
+    text-decoration: none;
+}
+
+.footer-lista li a:hover{
+    text-decoration: underline;
+}
+
+.footer-derechos{
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 1rem;
+}
+  
+
+@media screen and (max-width: 600px) {
+    .abrir-menu,
+    .cerrar-menu{
+        display: block;
+        border: 0;
+        font-size: 2rem;
+       background-color: transparent;
+       color: #B09B71;
+    }
+
+    .nav{
+        opacity: 0;
+        visibility: hidden;
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        gap: 1rem;
+        position: absolute;
+        top: 0;
+        right: 0;
+        background-color: #f1B6B1;
+        padding: 2rem;
+        bottom: 0;
+        box-shadow: 0 0 0 100vmax rgba(0, 0, 0, 0.1);
+        opacity: 1;
+    }
+
+    .nav.visible{
+        opacity: 1;
+        visibility: visible;
+    }
+
+    .nav-list{
+        flex-direction: column;
+        align-items: end;
+    }
+
+    .productos-lista {
+        flex-direction: column;
+        align-items: center;
+        max-width: 100%;
+        padding: 0 10px;
+      }
+      
+      .producto {
+        flex-basis: 100%;
+        margin-bottom: 20px;
+      }
+    
+}
+
+
+
+
+
+
+
