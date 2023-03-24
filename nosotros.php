@@ -24,7 +24,9 @@
             
             
             Las joyas FININA, buscan ser la aliada de las mujeres clásicas y sencicllas, pero sin perder las tendencias y la elegancia. Acompañándola en cada momento, emoción y sentimiento.</p>
-    </main>    
+    </main>   
+    
+    <?php include 'footer.php'; ?>
 
     <script src="./js/script.js"></script>
 </body>

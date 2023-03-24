@@ -11,10 +11,10 @@ cerrar.addEventListener('click', () => {
 })
 
 const imagenes = [
-    { src: "./imagenes/prueba1.jpg", alt: "Producto 1" },
-    { src: "./imagenes/prueba2.png", alt: "Producto 2" },
-    { src: "./imagenes/prueba3.png", alt: "Producto 3" },
-    { src: "./imagenes/prueba4.jpg", alt: "Producto 4" }
+    { src: "./imagenes/prueba1.jpg", alt: "Producto 1", precio: 50.000 },
+    { src: "./imagenes/prueba2.png", alt: "Producto 2", precio: 200.000 },
+    { src: "./imagenes/prueba3.png", alt: "Producto 3", precio: 325.000 },
+    { src: "./imagenes/prueba4.jpg", alt: "Producto 4", precio: 900.000 }
   ];
   
   const productosLista = document.querySelector('.productos-lista');
@@ -33,7 +33,7 @@ const imagenes = [
   
     const precioP = document.createElement('p');
     precioP.classList.add('producto-precio');
-    precioP.textContent = '$' + Math.floor(Math.random() * 100) + '.00';
+    precioP.textContent = 'Gs. ' + imagen.precio.toFixed(3);
   
     productoDiv.appendChild(img);
     productoDiv.appendChild(nombreP);
@@ -41,6 +41,7 @@ const imagenes = [
   
     productosLista.appendChild(productoDiv);
   });
+  
 
 
 

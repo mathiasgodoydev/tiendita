@@ -28,16 +28,7 @@
       
     </main>
     
-    <footer>
-        <h2 class="footer-titulo">Contáctanos</h2>
-        <ul class="footer-lista">
-            <li><a href="#"><i class="bi bi-envelope-fill"></i> Email</a></li>
-            <li><a href="#"><i class="bi bi-telephone-fill"></i> Teléfono</a></li>
-            <li><a href="#"><i class="bi bi-geo-alt-fill"></i> Dirección</a></li>
-            <li><a href="#"><i class="bi bi-instagram"></i></a></li>
-        </ul>
-        <p class="footer-derechos">&copy; 2023 FININA - Todos los derechos reservados</p>
-    </footer>
+    <?php include 'footer.php'; ?>
       
     <script src="./js/script.js"></script>
 </body>
