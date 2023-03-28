@@ -9,6 +9,7 @@
             <li><a href="productos.php" id="productos">Productos</a></li>
             <li><a href="/" id="ofertas">Ofertas</a></li>
             <li><a href="nosotros.php" id="nosotros">Nosotros</a></li>
+            <!-- <li><a href="registrar.php" id="registrarse">Registrarse</a></li> -->
         </ul>
     </nav>
 </header>

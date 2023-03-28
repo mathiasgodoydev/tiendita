@@ -8,28 +8,18 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./css/estilos.css">
-    <title>Finina</title>
+    <link rel="stylesheet" href="./css/login.css">
+    <title>Iniciar Sesión</title>
 </head>
 <body>
-    <?php include 'navbar.php'; ?>
-
-    <main class="inicio-container">
-        <h1 class="inicio-titulo">- CHOOSE JOY -</h1>
-      <p class="inicio-texto">
-        Nos inspiramos en las mujeres espontáneas, que disfrutan del presente y, con una mirada positiva, hacen que cada momento sea especial.
-        Cada mujer es diferente, desafiante y con una esencia que la hace única. Las joyas FININA, buscan ser la aliada de las mujeres clásicas y sencillas, pero sin perder las tendencias y la elegancia. Acompañándola en cada momento, emoción y sentimiento.
-      </p>
-      <div class="galeria">
-            <img src="./imagenes/foto.png" alt="Foto de FININA">
-            <img src="./imagenes/foto1.png" alt="">
-            <img src="./imagenes/foto2.png" alt="">
-      </div>
-      
-    </main>
-    
-    <?php include 'footer.php'; ?>
-      
-    <script src="./js/script.js"></script>
+    <div class="login-container">
+        <form class="login-form" action="index.html" method="POST">
+            <label class="login-label" for="username">Nombre de usuario:</label>
+            <input class="login-input" type="text" id="username" name="username" placeholder="Escribe tu usuario">
+            <label class="login-label" for="password">Contraseña:</label>
+            <input class="login-input" type="password" id="password" name="password" placeholder="Ingresa una contraseña">
+            <input class="login-button" type="submit" value="Iniciar sesión">
+        </form>
+    </div>
 </body>
 </html>
