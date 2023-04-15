@@ -12,14 +12,18 @@
     <title>Iniciar Sesión</title>
 </head>
 <body>
-    <div class="login-container">
-        <form class="login-form" action="index.html" method="POST">
-            <label class="login-label" for="username">Nombre de usuario:</label>
-            <input class="login-input" type="text" id="username" name="username" placeholder="Escribe tu usuario">
-            <label class="login-label" for="password">Contraseña:</label>
-            <input class="login-input" type="password" id="password" name="password" placeholder="Ingresa una contraseña">
-            <input class="login-button" type="submit" value="Iniciar sesión">
-        </form>
-    </div>
+    <form method="post">
+    
+    <h1>Finina</h1>
+    <input type="text" name="name" placeholder="Nombre Completo">
+    <input type="email" name="email" placeholder="Email">
+    <input type="submit" name="register">
+    
+    </form>
+       
+    <?php
+    include("registro.php");
+    ?>
+
 </body>
 </html>

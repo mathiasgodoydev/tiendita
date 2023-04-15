@@ -19,26 +19,6 @@
     <h1 class="productos-titulo">Productos</h1>
   </div>
   <div class="productos-lista">
-    <!-- <div class="producto">
-      <img src="./imagenes/prueba1.jpg" alt="Producto 1">
-      <p class="producto-nombre">Producto 1</p>
-      <p class="producto-precio">$10.00</p>
-    </div>
-    <div class="producto">
-      <img src="./imagenes/prueba2.png" alt="Producto 2">
-      <p class="producto-nombre">Producto 2</p>
-      <p class="producto-precio">$15.00</p>
-    </div>
-    <div class="producto">
-      <img src="./imagenes/prueba3.png" alt="Producto 3">
-      <p class="producto-nombre">Producto 3</p>
-      <p class="producto-precio">$20.00</p>
-    </div>
-    <div class="producto">
-      <img src="./imagenes/prueba4.jpg" alt="Producto 3">
-      <p class="producto-nombre">Producto 3</p>
-      <p class="producto-precio">$20.00</p>
-    </div> -->
   </div>
 </main>
 
